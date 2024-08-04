@@ -406,6 +406,10 @@
                 $(this).addClass('selected');
                 selectedCategorie = $(this).data('id');
                 $banner3.addClass('visible');
+                $('.filter-category').val(''); // Clear category filter
+                $('.filter-price').val('');    // Clear price filter
+                $('.filter-type').val('');     // Clear type filter
+
             });
             
             $buttonContainer.append($button);
