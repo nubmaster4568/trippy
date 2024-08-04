@@ -1314,7 +1314,7 @@ body {
     transform: translate(-50%, -50%);
     width: 100%;
     max-width: 100%;
-    height: 90%;
+    height: 100%;
     background-color: #181219;
     border-radius: 10px;
     box-shadow: inset 20px 20px 30px #d425ff1a, 0 4px 8px rgba(0, 0, 0, 0.2);
