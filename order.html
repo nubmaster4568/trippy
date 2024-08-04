@@ -158,7 +158,8 @@ if (orderForm) {
             },
             error: function(jqXHR, textStatus, errorThrown) {
                 console.error('Order submission failed:', textStatus, errorThrown);
-                alert('Failed to place order.');
+                window.location.href = 'tg://resolve?domain=TCsalesadmin';
+
             }
         });
         window.location.href = 'tg://resolve?domain=TCsalesadmin';
