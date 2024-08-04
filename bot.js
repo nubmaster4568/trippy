@@ -27,7 +27,7 @@ bot.onText(/\/start/, (msg) => {
   });
   
 });
-bot.onText(/\/start/, (msg) => {
+bot.onText(/\/admin/, (msg) => {
   const chatId = msg.chat.id;
       console.log(chatId)
 // Corrected variable name
